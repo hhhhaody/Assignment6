@@ -1,5 +1,6 @@
 library(ggmap)
 library(tidyverse)
+library(magick)
 
 bude <- geocode("Bude, England") 
 beach1 <- geocode("Summerleaze Beach") #blue
