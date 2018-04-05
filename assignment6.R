@@ -27,6 +27,12 @@ ggmap(roadmap) +
   geom_point(
     aes(x = -4.543023, y = 50.83007),
     color = "purple", size = 2) + 
+  geom_point(
+    aes(x = -4.5510, y = 50.8322),
+    color = "orange", size = 2) +
+  geom_point(
+    aes(x = -4.5528, y = 50.8332),
+    color = "black", size = 2) +
   geom_path(aes(x = lon, y = lat), color = "blue", size = 1, data = r, lineend = "round")
 dev.copy(png,'roadmap.png')
 dev.off()
@@ -45,7 +51,13 @@ ggmap(watermap) +
     color = "red", size = 2) +
   geom_point(
     aes(x = -4.543023, y = 50.83007),
-    color = "purple", size = 2) + 
+    color = "purple", size = 2) +
+  geom_point(
+    aes(x = -4.5510, y = 50.8322),
+    color = "orange", size = 2) +
+  geom_point(
+    aes(x = -4.5528, y = 50.8332),
+    color = "black", size = 2) +
   geom_path(aes(x = lon, y = lat), color = "red", size = 1, data = r, lineend = "round")
 dev.copy(png,'watermap.png')
 dev.off()
@@ -70,3 +82,10 @@ TheBarrelatBude <- image_scale(image_read('http://www.micropubassociation.co.uk/
 print(TheBarrelatBude)
 image_write(TheBarrelatBude, "TheBarrelatBude.jpg", format="jpg")
 
+AnMor <- image_scale(image_read('http://bstatic.com/images/hotel/840x460_watermarked_standard_bluecom/6b3/6b3ccdc80f7c3030e65880e2dd9c94c4afa40edc.jpg'))
+print(AnMor)
+image_write(AnMor, "AnMor.jpg", format="jpg")
+
+Hebasca <- image_scale(image_read('https://images.oyster.com/photos/the-hotel--v11261792-1280.jpg'))
+print(Hebasca)
+image_write(Hebasca, "Hebasca.jpg", format="jpg")

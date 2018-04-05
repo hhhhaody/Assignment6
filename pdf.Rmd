@@ -42,3 +42,9 @@ With a laidback allure all of its own, and so much to see and do, we have someth
 
 ##**The Barrel at Bude** 
 \includegraphics[width=400pt,height=350pt]{TheBarrelatBude.jpg}
+
+##**AnMor** 
+\includegraphics[width=400pt,height=350pt]{AnMor.jpg}
+
+##**Hebasca** 
+\includegraphics[width=400pt,height=350pt]{Hebasca.jpg}
